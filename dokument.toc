@@ -2,18 +2,18 @@
 \contentsline {section}{\numberline {1}Tytuł}{3}{}%
 \contentsline {section}{\numberline {2}Nazwa robocza}{3}{}%
 \contentsline {section}{\numberline {3}Cel}{3}{}%
-\contentsline {section}{\numberline {4}Zakres}{3}{}%
-\contentsline {subsection}{\numberline {4.1}Analiza wymagań}{3}{}%
-\contentsline {subsection}{\numberline {4.2}Wymagania funkcjonalne i niefunkcjonalne}{3}{}%
-\contentsline {subsection}{\numberline {4.3}Diagram przypadków użycia i diagram przepływu (opcjonalny)}{3}{}%
-\contentsline {subsection}{\numberline {4.4}Dobór technologii}{3}{}%
-\contentsline {section}{\numberline {5}Scenariusze}{3}{}%
-\contentsline {section}{\numberline {6}Estymacja czasowa }{3}{}%
-\contentsline {section}{\numberline {7}Implementacja}{3}{}%
-\contentsline {section}{\numberline {8}Testy i ich wyniki}{3}{}%
-\contentsline {section}{\numberline {9}Podsumowanie i bilans}{3}{}%
-\contentsline {section}{\numberline {10}Przykłady użycia elementów języka \LaTeX - nie wchodzi w zakres oddawanej dokumentacji stanowi jedynie przykład}{4}{}%
-\contentsline {section}{\numberline {11}Otoczenia}{4}{}%
-\contentsline {subsection}{\numberline {11.1}Formatowanie}{4}{}%
-\contentsline {subsection}{\numberline {11.2}Wypunktowanie i numeracja}{5}{}%
-\contentsline {subsection}{\numberline {11.3}Tabele}{6}{}%
+\contentsline {section}{\numberline {4}Zakres}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Analiza wymagań}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Wymagania funkcjonalne i niefunkcjonalne}{4}{}%
+\contentsline {subsection}{\numberline {4.3}Diagram przypadków użycia i diagram przepływu (opcjonalny)}{5}{}%
+\contentsline {subsection}{\numberline {4.4}Dobór technologii}{5}{}%
+\contentsline {section}{\numberline {5}Scenariusze}{6}{}%
+\contentsline {section}{\numberline {6}Estymacja czasowa }{7}{}%
+\contentsline {section}{\numberline {7}Implementacja}{7}{}%
+\contentsline {section}{\numberline {8}Testy i ich wyniki}{7}{}%
+\contentsline {section}{\numberline {9}Podsumowanie i bilans}{7}{}%
+\contentsline {section}{\numberline {10}Przykłady użycia elementów języka \LaTeX - nie wchodzi w zakres oddawanej dokumentacji stanowi jedynie przykład}{8}{}%
+\contentsline {section}{\numberline {11}Otoczenia}{8}{}%
+\contentsline {subsection}{\numberline {11.1}Formatowanie}{8}{}%
+\contentsline {subsection}{\numberline {11.2}Wypunktowanie i numeracja}{9}{}%
+\contentsline {subsection}{\numberline {11.3}Tabele}{10}{}%

@@ -16,15 +16,15 @@
 
 \begin{document}
 
-\title{Dokumentacja projektu ZPI}
-\author{Nikodem Bulanda}
+\title{Dokumentacja projektu Bazy Danych}
+\author{Magdalena Krzyszowska Maciej Kapała}
 \date{\today}
 
 \maketitle
 
-\begin{abstract}
-Zarys dokumentacji projektowej stanowiący podstawę do realizacji projektu zespołowego. (Z wykorzystaniem schematyzmu struktury znaczników \LaTeX  stworzonego przez R. J. Wysockiego.)
-\end{abstract}
+% \begin{abstract}
+% Zarys dokumentacji projektowej stanowiący podstawę do realizacji projektu zespołowego. (Z wykorzystaniem schematyzmu struktury znaczników \LaTeX  stworzonego przez R. J. Wysockiego.)
+% \end{abstract}
 
 \newpage
 
@@ -35,17 +35,72 @@ Zarys dokumentacji projektowej stanowiący podstawę do realizacji projektu zesp
 \newpage
 
 \section{Tytuł}
+
+Odwzorowanie systemu finansowego na podstawie działania domu Maklerskiego
+
 \section{Nazwa robocza}
+
+PSF - Polski System Finansowy / eMakler
+
 \section{Cel}
-Jednoznacznie określony stan w przyszłości, nie mylić z produktem końcowym
+% Jednoznacznie określony stan w przyszłości, nie mylić z produktem końcowym
+
+Celem projektu jest wykonanie systemu elektronicznego serwisu transakcyjnego usprawniającego prowadzenie inwestycji na giełdzie papierów wartościowych oraz zarządzanie portfelami inwestycyjnymi. Główną funkcjonalnością systemu jest przyjmowanie i przekazywanie zleceń nabycia lub zbycia papierów wartościowych i instrumentów finansowych z poziomu jednego przejrzystego interfejsu użytkownika. Poprzez wykorzystanie takiego rozwiązania inwestor ma możliwość lepszego prowadzenia inwestycji oraz zarządzania swoim portfelem inwestycyjnym. System eMakler pozwala również na kontrolowanie sytuacji na rynku papierów wartościowych, dzięki wyświetlaniu aktualnych notowań spółek na giełdzie w czasie rzeczywistym oraz wyświetlanie (…).
+
+\newpage
+
 \section{Zakres}
 \subsection{Analiza wymagań}
- (oraz ,,deasemblacja'' procesu osiągnięcia celu)
+%  (oraz ,,deasemblacja'' procesu osiągnięcia celu)
+
+dok.
+
 \subsection{Wymagania funkcjonalne i niefunkcjonalne}
+
+Wymagania funkcjonalne:
+\begin{itemize} 
+  \item stworzenie systemu logowania, który pozwoli użytkownikowi na używanie aplikacji
+  \item sprawdzanie poprawności logowania,
+  \item historia logowań i transakcji, 
+  \item dodawanie środków pieniężnych przez użytkowników (wirtualny portfel),
+  \item wyświetlenie akcji/walut które zostały kupione/ sprzedane w ostatnim czasie,
+  \item wyświetlenie akcji na których się najwięcej zarobiło/straciło,
+  \item aktualny stan panujący w danym dniu na giełdzie 
+\end{itemize}
+
+Wymagania nie funkcjonalne:
+\begin{itemize}
+  \item współpraca z każdym urządzeniem który będzie posiadał przeglądarkę internetową,
+  \item dbałość o bezpieczeństwo i prywatność każdego z użytkowników,
+  \item dostosowanie aplikacji do potrzeb każdego użytkownika (jak na przykład komunikat o zmianie języka strony np. z polskiego na angielski)
+\end{itemize}
+
+\newpage
+
 \subsection{Diagram przypadków użycia i diagram przepływu (opcjonalny)}
+
+\begin{figure}[htb!p]
+  \includegraphics[width=0.9\textwidth]{rys/dpu.png}
+  \caption{Diagram przypadków użycia}
+  \label{dpu}
+  \end{figure}
 \subsection{Dobór technologii}
+
+React.js
+
+Go
+
+ew. Node.js
+
+PostgreSQL
+
+\newpage
+
 \section{Scenariusze}
 (tytuł, numer, aktorzy, stan wejścia (warunki + dane), przebieg scenariusza, wynik, scenariusz alternatywny, jeśli istnieje)
+
+\newpage
+
 \section{Estymacja czasowa }
 (poszczególnych zadań jak i określenie wymagań MVP oraz terminu końcowego oddania)
 \section{Implementacja}
